@@ -1,0 +1,12 @@
+header {
+  /* display: grid;
+  grid-template-columns: 7fr 1fr 1fr 1fr 2fr 2fr 2fr; */
+}
+.main {
+  /* display: grid;
+  grid-template-columns: 8fr 5fr; */
+}
+.empresas {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
+}

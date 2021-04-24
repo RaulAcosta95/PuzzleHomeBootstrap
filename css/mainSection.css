@@ -1,0 +1,73 @@
+section .main .info {
+  padding-top: 20vh;
+  font-family: "Helvetica";
+}
+.main form input {
+  -webkit-box-shadow: 10px 10px 49px -4px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 10px 10px 49px -4px rgba(0, 0, 0, 0.22);
+  box-shadow: 10px 10px 49px -4px rgba(0, 0, 0, 0.22);
+}
+.info {
+  padding-left: 20vh;
+}
+.innovate {
+  font-size: 11px;
+  color: rgb(170, 170, 172);
+}
+.helpUsFind {
+  font-size: 35px;
+}
+section .main .DosPersonasDandoseLaMano {
+  padding-left: 10vh;
+  padding-top: 11vh;
+  width: 55vh;
+}
+section .main input {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  padding-right: 50vh;
+  padding-left: 10vh;
+  border: none;
+  border-radius: 79px 79px 79px 79px;
+  -moz-border-radius: 79px 79px 79px 79px;
+  -webkit-border-radius: 79px 79px 79px 79px;
+}
+section .main input::placeholder {
+  font-size: 13px;
+  color: #afafaf;
+}
+section .main button {
+  /* margin-right: 100vh; */
+  text-decoration: none;
+  border: none;
+  background-color: rgb(246, 248, 250);
+}
+/* Animación */
+section .main .LogoBusqueda {
+  animation-duration: 15s;
+  animation-name: slidein;
+}
+/* Animación con css */
+@keyframes slidein {
+  from {
+    height: 0vh;
+    width: 0vh;
+  }
+
+  to {
+    height: 7vh;
+    width: 7vh;
+  }
+}
+section .main .LogoBusqueda {
+  height: 7vh;
+  width: 7vh;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+
+  -webkit-box-shadow: 2px 8px 24px 3px rgba(240, 184, 17, 0.32);
+  -moz-box-shadow: 2px 8px 24px 3px rgba(240, 184, 17, 0.32);
+  box-shadow: 2px 8px 24px 3px rgba(240, 184, 17, 0.32);
+}
